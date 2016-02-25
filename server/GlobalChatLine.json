@@ -8,7 +8,6 @@
     {"type": "INT"},
     {"name": "userId", "type": "LONG"},
     {"name": "homeId", "type": "LONG"},
-    {"name": "clan", "type": "?ClanIdComponent"},
-    {"type": "INT"}
+    {"name": "clan", "type": "?ClanIdComponent"}
   ]
 }

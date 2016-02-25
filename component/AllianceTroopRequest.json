@@ -1,0 +1,50 @@
+{
+    "name": "AllianceTroopRequest",
+    "fields": [
+        { "name": "id", "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "name": "donations", "type": "AllianceDonation[]" },
+        { "name": "text", "type": "?STRING" }
+    ],
+    "extensions": [
+        {
+            "id": 0,
+            "fields": [
+                { "name": "troops", "type": "UnitComponent[]" }
+            ]
+        },
+        {
+            "id": 1,
+            "fields": [
+                { "name": "troops", "type": "UnitComponent[]" }
+            ]
+        },
+        {
+            "id": 2,
+            "fields": [
+                { "name": "troops", "type": "UnitComponent[]" }
+            ]
+        },
+        {
+            "id": 3,
+            "fields": [
+                { "name": "troops", "type": "UnitComponent[]" }
+            ]
+        },
+        {
+            "id": 4,
+            "fields": [
+                { "name": "troops", "type": "UnitComponent[]" }
+            ]
+        },
+        {
+            "id": 5,
+            "fields": [
+                { "name": "troops", "type": "UnitComponent[]" }
+            ]
+        }
+    ]
+}

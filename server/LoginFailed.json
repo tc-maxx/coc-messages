@@ -2,6 +2,13 @@
   "id": 20103,
   "name": "LoginFailed",
   "fields": [
+    { "type": "LONG" },
+    { "type": "LONG" },
+    { "type": "LONG" },
+    { "type": "LONG" },
+    { "type": "LONG" },
+    { "type": "LONG" },
+    { "type": "LONG" },
     {"name": "failureReason", "type": "INT"},
     {"type": "STRING"},
     {"name": "hostName", "type": "STRING"},

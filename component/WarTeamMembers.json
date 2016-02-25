@@ -1,35 +1,62 @@
 {
-  "name": "WarTeamMembers",
-  "fields": [
-    {"name": "clanId", "type": "LONG"},
-    {"name": "userId", "type": "LONG"},
-    {"name": "homeId", "type": "LONG"},
-    {"name": "userName", "type": "STRING"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"name": "goldWeight", "type": "INT"},
-    {"name": "elixerWeight", "type": "INT"},
-    {"name": "deWeight", "type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"name": "townHall", "type": "INT"},
-    {"name": "position", "type": "INT"},
-    {"name": "warId", "type": "?LONG"},
-    {"type": "?LONG"},
-    {"type": "?LONG"},
-    {"type": "?LONG"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"name": "warRequest", "type": "STRING"},
-    {"type": "INT"},
-    {"type": "WarTeamMemberTroopsComponent[]"}
-  ]
+    "name": "WarTeamMembers",
+    "fields": [
+        { "name": "clanId", "type": "LONG" },
+        { "name": "userId", "type": "LONG" },
+        { "name": "homeId", "type": "LONG" },
+        { "name": "userName", "type": "STRING" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "name": "goldWeight", "type": "INT" },
+        { "name": "elixerWeight", "type": "INT" },
+        { "name": "deWeight", "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "name": "townHall", "type": "INT" },
+        { "name": "position", "type": "INT" },
+        { "name": "id", "type": "BYTE" }
+    ],
+    "extensions": [
+        {
+            "id": 1,
+            "fields": [
+                { "name": "name", "type": "STRING" },
+                { "name": "position", "type": "INT" },
+                { "type": "INT" },
+                { "type": "INT" },
+                { "type": "INT" },
+                { "name": "warId", "type": "?LONG" },
+                { "type": "?LONG" },
+                { "type": "INT" },
+                { "type": "INT" },
+                { "type": "BYTE" },
+                { "type": "INT" },
+                { "name": "warRequest", "type": "STRING" },
+                { "type": "INT" },
+                { "type": "WarTeamMemberTroopsComponent[]" }
+            ]
+        },
+        {
+            "id": 2,
+            "fields": [
+                { "type": "LONG" },
+                { "name": "warId", "type": "?LONG" },
+                { "type": "?LONG" },
+                { "type": "INT" },
+                { "type": "INT" },
+                { "type": "INT" },
+                { "name": "warRequest", "type": "STRING" },
+                { "type": "INT" },
+                { "type": "WarTeamMemberTroopsComponent[]" }
+            ]
+        }
+
+    ]
 }

@@ -2,6 +2,7 @@
   "name": "ClanIdComponent",
   "fields": [
     {"name": "clanId", "type": "LONG"},
-    {"name": "clanName", "type": "STRING"}
+    {"name": "clanName", "type": "STRING"},
+    {"type": "INT"}
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "id": 14114,
+  "name": "HomeBattleReplay",
+  "fields": [
+    { "type": "INT" },
+    { "type": "LONG", "name": "id" }
+  ]
+}

@@ -20,8 +20,7 @@
     {"type": "INT"},
     {"type": "BYTE"},
     {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
+    {"type": "LONG"},
     {"type": "INT"}
   ]
 }

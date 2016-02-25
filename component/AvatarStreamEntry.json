@@ -13,7 +13,8 @@
     {
       "id": 6,
       "fields": [
-        {"type": "LONG"},
+        { "type": "LONG" },
+        {"type": "BYTE"},
         {"name": "userId", "type": "LONG"},
         {"name": "userName", "type": "STRING"},
         {"type": "INT"},

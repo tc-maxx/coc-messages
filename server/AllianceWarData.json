@@ -6,7 +6,7 @@
     {"type": "INT"},
     {"name": "ownTeam", "type": "WarTeam"},
     {"name": "enemyTeam", "type": "?WarTeam"},
-    {"type": "?LONG"},
+    {"name": "warId", "type": "?LONG"},
     {"name": "warEvents", "type": "WarEvent[]"}
   ]
 }
