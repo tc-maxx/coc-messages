@@ -16,7 +16,8 @@
     {"name": "lastSeasonYear", "type": "INT"},
     {"name": "lastSeasonPosition", "type": "INT"},
     {"name": "lastSeasonTrophies", "type": "INT"},
-    {"name": "lastLeague", "type": "LONG"},
+    {"name": "leagueType", "type": "INT"},
+    {"name": "clanCastleLevel", "type": "INT"},
     {"name": "clanCastleCapacity", "type": "INT"},
     {"name": "allianceUnitsCount", "type": "INT"},
     {"type": "INT"},
@@ -38,6 +39,7 @@
     {"type": "INT"},
     {"type": "INT"},
     {"type": "INT"},
+	{"type": "INT"},
     {"type": "?LONG"},
     {"type": "BOOLEAN"},
     {"type": "INT"},
@@ -45,6 +47,7 @@
     {"type": "INT"},
     {"type": "INT"},
     {"type": "INT"},
-    {"type": "INT"}
+    {"type": "INT"},
+	{"type": "BOOLEAN"}
   ]
 }

@@ -14,6 +14,8 @@
     {"type": "INT"},
     {"type": "INT"},
     {"type": "INT"},
+	{"type": "INT"},
     {"type": "?AvatarStreamEntryExtensionUnknown"}
+    
   ]
 }

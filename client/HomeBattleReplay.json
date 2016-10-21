@@ -3,6 +3,6 @@
   "name": "HomeBattleReplay",
   "fields": [
     { "type": "INT" },
-    { "type": "LONG", "name": "id" }
+    { "type": "LONG", "name": "replayId" }
   ]
 }

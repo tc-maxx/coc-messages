@@ -2,6 +2,8 @@
   "id": 24338,
   "name": "AllianceWarHistory",
   "fields": [
-    {"name": "entries", "type": "WarLogEntry[]"}
+    {"name": "entries", "type": "WarLogEntry[]"},
+	{ "type": "LONG" },
+	{ "type": "BYTE" }	
   ]
 }

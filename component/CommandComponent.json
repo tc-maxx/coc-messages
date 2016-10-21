@@ -39,6 +39,15 @@
                 { "name": "tick", "type": "INT" }
             ]
         },
+		{
+            "id": 21,
+            "comment": "",
+            "fields": [
+                { "type": "INT" },
+                { "type": "STRING" },
+                { "name": "tick", "type": "INT" }
+            ]
+        },
         {
             "id": 501,
             "comment": "Move building",

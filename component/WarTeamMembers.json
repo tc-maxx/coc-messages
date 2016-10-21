@@ -19,6 +19,7 @@
         { "type": "INT" },
         { "type": "INT" },
         { "type": "INT" },
+		{ "type": "INT" },
         { "name": "townHall", "type": "INT" },
         { "name": "position", "type": "INT" },
         { "name": "id", "type": "BYTE" }
@@ -34,9 +35,9 @@
                 { "type": "INT" },
                 { "name": "warId", "type": "?LONG" },
                 { "type": "?LONG" },
+                {"type": "?LONG"},
                 { "type": "INT" },
                 { "type": "INT" },
-                { "type": "BYTE" },
                 { "type": "INT" },
                 { "name": "warRequest", "type": "STRING" },
                 { "type": "INT" },

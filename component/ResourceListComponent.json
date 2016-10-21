@@ -20,6 +20,10 @@
     {"type": "INT"},
     {"type": "ResourceComponent[]"},
     {"type": "ResourceComponent[]"},
-    {"type": "ResourceComponent[]"}
+    {"name": "variables", "type": "ResourceComponent[]"},
+	{"type": "ResourceComponent[]"},
+	{"type": "ResourceComponent[]"},
+	{"type": "ResourceComponent[]"},
+	{"type": "ResourceComponent[]"}
   ]
 }

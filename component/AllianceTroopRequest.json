@@ -4,7 +4,7 @@
         { "name": "id", "type": "INT" },
         { "type": "INT" },
         { "type": "INT" },
-        { "type": "INT" },
+		{ "type": "INT" },
         { "type": "INT" },
         { "name": "donations", "type": "AllianceDonation[]" },
         { "name": "text", "type": "?STRING" }

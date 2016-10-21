@@ -3,11 +3,11 @@
     "fields": [
         { "name": "clanId", "type": "LONG" },
         { "name": "clanName", "type": "STRING" },
-        { "type": "INT" },
+        { "name": "clanBadge", "type": "INT" },
         { "name": "clanLevel", "type": "INT" },
         { "name": "enemyClanId", "type": "LONG" },
         { "name": "enemyClanName", "type": "STRING" },
-        { "type": "INT" },
+        { "name": "enemyClanBadge", "type": "INT" },
         { "name": "enemyClanLevel", "type": "INT" },
         { "name": "stars", "type": "INT" },
         { "name": "enemyStars", "type": "INT" },
@@ -22,6 +22,7 @@
         { "type": "INT" },
         { "type": "BYTE" },
         { "type": "INT" },
-        { "type": "LONG" }
+        { "type": "LONG" },
+		{ "type": "INT" }
     ]
 }

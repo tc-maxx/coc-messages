@@ -1,9 +1,8 @@
 {
   "name": "WarEvent",
   "fields": [
-    {"type": "INT"},
-    {"type": "INT"},
-    {"name": "attackId", "type": "INT"},
+	{"type": "INT"},
+    {"name": "attackId", "type": "LONG"},
     {"name": "timeTillWarEnd", "type": "INT"},
     {"name": "attackerClanID", "type": "LONG"},
     {"name": "attackerID", "type": "LONG"},
@@ -20,7 +19,7 @@
     {"type": "INT"},
     {"type": "BYTE"},
     {"type": "INT"},
-    {"type": "LONG"},
+    {"name": "replayId", "type": "LONG"},
     {"type": "INT"}
   ]
 }

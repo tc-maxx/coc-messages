@@ -2,6 +2,6 @@
   "id":24340,
   "name": "BookmarksList",
   "fields": [
-    {"type": "LONG[]"}
+    {"name": "clanIdList", "type": "LONG[]"}
   ]
 }

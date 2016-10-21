@@ -7,6 +7,9 @@
     {"name": "ownTeam", "type": "WarTeam"},
     {"name": "enemyTeam", "type": "?WarTeam"},
     {"name": "warId", "type": "?LONG"},
+	{"type": "BOOLEAN"},
+	{"type": "INT"},
+	{"type": "LONG"},
     {"name": "warEvents", "type": "WarEvent[]"}
   ]
 }

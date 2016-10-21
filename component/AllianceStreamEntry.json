@@ -11,14 +11,14 @@
         { "name": "level", "type": "INT" },
         { "type": "INT" },
         { "type": "INT" },
-        { "type": "INT" }
+		{ "type": "INT" }
     ],
     "extensions": [
         {
             "id": 1,
             "comment": "Troop request",
             "fields": [
-                { "type": "AllianceTroopRequest" }
+				{ "type": "AllianceTroopRequest" }
             ]
         },
         {
@@ -52,14 +52,28 @@
             "fields": [
                 { "type": "INT" },
                 { "type": "LONG" },
-                { "name": "text", "type": "?STRING" },
+				{"type": "BOOLEAN"},
+                { "name": "text", "type": "STRING" },
                 { "name": "enemyName", "type": "STRING" },
                 { "name": "replay", "type": "STRING", "comment": "JSON description of battle" },
                 { "type": "INT" },
                 { "type": "INT" },
                 { "type": "INT" }
             ]
-        }
+        },
+		{
+			"id": 11,
+			"comment": "Challenge",
+			"fields": [
+                { "name": "challenge", "type": "STRING" },
+				{ "type": "INT" },
+				{ "type": "INT" },
+				{ "type": "BYTE" },
+				{ "type": "BYTE" },
+				{ "type": "BYTE" },
+				{ "type": "INT" }				
+            ]
+		}
     ]
 }
 
