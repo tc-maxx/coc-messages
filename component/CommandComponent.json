@@ -83,6 +83,7 @@
                 { "type": "INT" },
                 { "name": "typeId", "type": "INT" },
                 { "name": "count", "type": "INT" },
+				{"type":"INT"},
                 { "name": "tick", "type": "INT" }
             ]
         },

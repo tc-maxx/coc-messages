@@ -3,7 +3,7 @@
   "name": "AllianceWarHistory",
   "fields": [
     {"name": "entries", "type": "WarLogEntry[]"},
-	{ "type": "LONG" },
+	{"name": "clanId", "type": "LONG" },
 	{ "type": "BYTE" }	
   ]
 }
