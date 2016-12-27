@@ -24,6 +24,7 @@
 	{"name": "army1", "type": "ResourceComponent[]"},
 	{"name": "army2", "type": "ResourceComponent[]"},
 	{"name": "army3", "type": "ResourceComponent[]"},
-	{"name": "previousArmy", "type": "ResourceComponent[]"}
+	{"name": "previousArmy", "type": "ResourceComponent[]"},
+	{"type": "ResourceComponent[]"}
   ]
 }

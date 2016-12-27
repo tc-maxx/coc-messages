@@ -1,7 +1,6 @@
 {
   "name": "UserComponent",
   "fields": [
-    {"type": "INT"},
     {"name": "userId", "type": "LONG"},
     {"name": "homeId", "type": "LONG"},
     {"name": "clan", "type": "?ClanComponent"},

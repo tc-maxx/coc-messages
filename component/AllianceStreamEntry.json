@@ -66,12 +66,18 @@
 			"comment": "Challenge",
 			"fields": [
                 { "name": "challenge", "type": "STRING" },
-				{ "type": "INT" },
-				{ "type": "INT" },
 				{ "type": "BYTE" },
 				{ "type": "BYTE" },
 				{ "type": "BYTE" },
-				{ "type": "INT" }				
+				{ "type": "?BYTE" },
+				{ "type": "BYTE" },
+				{ "type": "BYTE" },
+				{ "type": "?BYTE" },
+				{ "type": "BYTE" },
+				{ "type": "BYTE" },
+				{ "type": "BYTE" },
+				{ "type": "INT" }
+				
             ]
 		}
     ]

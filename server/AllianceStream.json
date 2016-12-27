@@ -2,6 +2,7 @@
   "id": 24311,
   "name": "AllianceStream",
   "fields": [
+    {"type": "INT"},
     {"name": "entries", "type": "AllianceStreamEntry[]"}
   ]
 }

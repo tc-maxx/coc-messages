@@ -3,8 +3,8 @@
   "fields": [
     {"type": "LONG"},
     {"type": "BYTE"},
-    {"type": "LONG"},
-    {"type": "STRING"},
+    {"name": "userId", "type": "LONG"},
+    {"name": "userName", "type": "STRING"},
     {"type": "INT"},
     {"type": "INT"},
     {"type": "INT"},
